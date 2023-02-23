@@ -6,4 +6,7 @@ description = 'common utilities needed in bitcoin applications using bitcoinj'
 
 dependencies {
     api "org.bitcoinj:bitcoinj-core:${bitcoinjVersion}"
+
+    testImplementation project(':bitcoin-regtest:bitcoin-regtest-core')
+    testImplementation project(':tbk-bitcoin-common:tbk-bitcoin-common-util')
 }
