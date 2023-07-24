@@ -8,8 +8,8 @@ public final class StaticCoinbaseRewardAddressSupplier implements CoinbaseReward
 
     private final Address address;
 
-    public StaticCoinbaseRewardAddressSupplier(Address client) {
-        this.address = requireNonNull(client);
+    public StaticCoinbaseRewardAddressSupplier(Address address) {
+        this.address = requireNonNull(address);
     }
 
     @Override
