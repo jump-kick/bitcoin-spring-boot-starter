@@ -33,7 +33,7 @@ import static java.util.Objects.requireNonNull;
 @AutoConfigureAfter(BitcoindContainerAutoConfiguration.class)
 public class ClnContainerAutoConfiguration {
 
-    private static final String DOCKER_IMAGE_NAME = "polarlightning/clightning:23.05";
+    private static final String DOCKER_IMAGE_NAME = "polarlightning/clightning:23.08";
 
     private static final DockerImageName dockerImageName = DockerImageName.parse(DOCKER_IMAGE_NAME);
 
